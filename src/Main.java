@@ -97,8 +97,6 @@ public class Main {
     /**
      * Método que lee el archivo "datos.txt" y devuelve un HashMap con los alumnos y sus notas
      * Formato esperado del archivo: nombre_alumno;nota (una línea por cada nota)
-     * 
-     * @return HashMap donde la clave es el nombre del alumno y el valor es una lista de sus notas
      */
     public static HashMap<String, List<Double>> leerAlumnos() {
         HashMap<String, List<Double>> alumnos = new HashMap<>();
